@@ -1,0 +1,99 @@
+<HTML>
+	<HEAD>
+		<TITLE> Merry Christmas :)</TITLE>
+		<STYLE type='text/css'>
+		#star-five {
+      		margin: 50px 0;
+      		position: relative;
+      		display: block;
+      		color: yellow;
+     		width: 0px;
+      		height: 0px;
+      		top: 60px;
+      		left: 2px;
+      		border-right: 100px solid transparent;
+      		border-bottom: 70px solid yellow;
+      		border-left: 100px solid transparent;
+      		transform: rotate(35deg) scale(0.6);
+    	}
+    	#star-five:before {
+      		border-bottom: 80px solid yellow;
+      		border-left: 30px solid transparent;
+      		border-right: 30px solid transparent;
+      		position: absolute;
+      		height: 0;
+      		width: 0;
+      		top: -45px;
+      		left: -65px;
+      		display: block;
+      		content: '';
+      		transform: rotate(-35deg);
+    	}
+    	#star-five:after {
+      	position: absolute;
+      	display: block;
+      	color: yellow;
+      	top: 3px;
+      	left: -105px;
+      	width: 0px;
+      	height: 0px;
+      	border-right: 100px solid transparent;
+      	border-bottom: 70px solid yellow;
+      	border-left: 100px solid transparent;
+      	transform: rotate(-70deg);
+      	content: '';
+    	}
+		#triangle1{
+			width: 0;
+      		height: 0;
+      		border-left: 50px solid transparent;
+      		border-right: 50px solid transparent;
+      		border-bottom: 100px solid green;
+      		transform: scale(1);
+		}
+		#triangle2{
+			width: 0;
+      		height: 0;
+      		border-left: 50px solid transparent;
+      		border-right: 50px solid transparent;
+      		border-bottom: 100px solid green;
+      		transform: scale(2);
+		}
+		#triangle3{
+			width: 0;
+      		height: 0;
+      		border-left: 50px solid transparent;
+      		border-right: 50px solid transparent;
+      		border-bottom: 100px solid green;
+      		transform: scale(2.75);
+		}
+		#box1{
+			width: 50px;
+			height: 75px;
+			top: 87px;
+			position: relative;
+			background: brown;
+		}
+		#ps1{
+			position: absolute;
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			top: 77%;
+			left: 70%;
+		}
+		</STYLE>
+	</HEAD>
+	<BODY>
+		<CENTER>
+		<DIV id='christmastree'>
+			<DIV id='star-five'></DIV>
+			<DIV id='triangle1'></DIV>
+			<DIV id='triangle2'></DIV>
+			<DIV id='triangle3'></DIV>
+			<DIV id='box1'></DIV>
+		</DIV>
+		<DIV id='ps1'></DIV>
+		</CENTER>
+	</BODY>
+</HTML>
